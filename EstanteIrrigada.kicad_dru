@@ -1,0 +1,5 @@
+(version 1)
+# Define o clearance mínimo entre vias e pads
+(rule "Distância mínima entre via e pad"
+(constraint clearance(min 25mil))
+(condition "A.Type == 'Via' && B.Type == 'Pad'"))

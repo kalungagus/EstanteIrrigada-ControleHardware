@@ -1,0 +1,315 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b321885b-663b-4e5e-9033-7ff03a7cc252")
+	(paper "A4")
+	(title_block
+		(title "Estante Irrigada - Controle")
+		(date "2024-06-07")
+		(rev "1")
+		(company "Gustavo Adolpho Souteras Barbosa")
+	)
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 148.59 128.27) (xy 171.45 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ae15e1-c2d5-40b7-9bad-bfde5a583a17")
+	)
+	(bus
+		(pts
+			(xy 148.59 97.79) (xy 171.45 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f509c9-9e2f-4b43-ad19-def546c289de")
+	)
+	(wire
+		(pts
+			(xy 148.59 101.6) (xy 156.21 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4fe555-2b8e-4a06-8265-a337c25d97b5")
+	)
+	(wire
+		(pts
+			(xy 162.56 78.74) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd8cdc1-dfba-4ab7-9ddd-aae8c5efd116")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 171.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddcb4e0c-a736-4168-b124-330d8bff6311")
+	)
+	(wire
+		(pts
+			(xy 156.21 101.6) (xy 156.21 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94e1f69-4811-4e21-8313-0fd40572e6cb")
+	)
+	(sheet
+		(at 171.45 115.57)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.41)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "9652ea1a-03c5-4e20-8f59-e0e099347025")
+		(property "Sheetname" "Acionamento"
+			(at 171.45 114.7296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Acionamento.kicad_sch"
+			(at 171.45 141.6834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VALVULA[0..5]" input
+			(at 171.45 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4d41e367-dffe-448d-abae-d8a145a9c169")
+		)
+		(instances
+			(project "EstanteIrrigada"
+				(path "/b321885b-663b-4e5e-9033-7ff03a7cc252"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 59.69)
+		(size 124.46 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.41)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "a39355cf-7d20-4092-a634-3f118f3f23bd")
+		(property "Sheetname" "Alimentação"
+			(at 84.2496 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alimentação.kicad_sch"
+			(at 210.2634 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SENSOR_EN" input
+			(at 156.21 78.74 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "008a4310-b198-4dfb-a8d2-8d368de28510")
+		)
+		(pin "SENSOR_3V3" output
+			(at 162.56 78.74 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "299fbb96-6047-41fb-97a7-2cc38723cb88")
+		)
+		(instances
+			(project "EstanteIrrigada"
+				(path "/b321885b-663b-4e5e-9033-7ff03a7cc252"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 85.09)
+		(size 63.5 55.88)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.41)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "b56a97ba-d97a-4d8a-bfa4-a5d5e3a370fd")
+		(property "Sheetname" "Controle"
+			(at 85.09 84.2496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Controle.kicad_sch"
+			(at 85.09 141.6834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VALVULA[0..5]" output
+			(at 148.59 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bc7ed6dc-ce67-42c2-8fcd-f1fc794eaa8e")
+		)
+		(pin "SENSOR_EN" output
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fc373cae-55f5-4547-af31-9af789a49c52")
+		)
+		(pin "SENSOR[0..5]" input
+			(at 148.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "52be6982-1529-4a1c-8bdc-6a62c81dbcf0")
+		)
+		(instances
+			(project "EstanteIrrigada"
+				(path "/b321885b-663b-4e5e-9033-7ff03a7cc252"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 85.09)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.41)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "f4ac297b-97c8-4d80-98b7-4534bc5b7f0d")
+		(property "Sheetname" "Sensores"
+			(at 171.45 84.2496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensores.kicad_sch"
+			(at 171.45 111.2034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SENSOR_3V3" input
+			(at 171.45 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "79e4274b-9b5d-4b8b-b1d5-911e3d5606b1")
+		)
+		(pin "SENSOR[0..5]" output
+			(at 171.45 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7bcd90c8-dba4-4266-9229-1e271de3b0e6")
+		)
+		(instances
+			(project "EstanteIrrigada"
+				(path "/b321885b-663b-4e5e-9033-7ff03a7cc252"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
